@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   creator: "VR Agri Blooms",
 
   verification: {
-    google: "hDtJEpSaxWugpZsQ27pjMTw8pcZ6iz1fp0YlwlbXv1Q",
-  },
+  google: "dugy7NfClTQ45nMfmkM1oHssi3QM3wgz2XAqqG5mQOQ",
+},
 
   openGraph: {
     title: "VR Agri Blooms",
