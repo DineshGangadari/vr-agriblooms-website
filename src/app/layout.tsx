@@ -37,6 +37,10 @@ export const metadata: Metadata = {
   authors: [{ name: "VR Agri Blooms" }],
   creator: "VR Agri Blooms",
 
+  verification: {
+    google: "hDtJEpSaxWugpZsQ27pjMTw8pcZ6iz1fp0YlwlbXv1Q",
+  },
+
   openGraph: {
     title: "VR Agri Blooms",
     description:
@@ -70,9 +74,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body>
-  <AOSInitializer />
-  {children}
-</body>
+        <AOSInitializer />
+        {children}
+      </body>
     </html>
   );
 }
