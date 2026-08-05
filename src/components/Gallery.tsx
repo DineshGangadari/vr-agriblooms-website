@@ -1,14 +1,14 @@
 const projectVideos = [
   {
-    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/v1785946331/project-1_wkasl9.mp4",
+    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/f_mp4,vc_h264,q_auto/v1785946331/project-1_wkasl9.mp4",
     title: "Garden Transformation",
   },
   {
-    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/v1785946328/project-2_sdiue3.mp4",
+    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/f_mp4,vc_h264,q_auto/v1785946328/project-2_sdiue3.mp4",
     title: "Landscape Maintenance",
   },
   {
-    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/v1785946333/project-3_w7bsve.mp4",
+    src: "https://res.cloudinary.com/hgt8zrtv/video/upload/f_mp4,vc_h264,q_auto/v1785946333/project-3_w7bsve.mp4",
     title: "Plantation Project",
   },
 ];
