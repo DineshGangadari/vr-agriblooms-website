@@ -4,15 +4,18 @@ export default function Hero() {
       id="home"
       className="relative flex min-h-[90vh] items-center overflow-hidden"
     >
-      <video
-        className="absolute inset-0 h-full w-full object-cover"
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src="/videos/hero-garden-new.mp4" type="video/mp4" />
-      </video>
+     <video
+      className="absolute inset-0 h-full w-full object-cover"
+      autoPlay
+      muted
+      loop
+      playsInline
+    >
+  <source
+    src="https://res.cloudinary.com/hgt8zrtv/video/upload/f_mp4,vc_h264,q_auto/v1785946310/heroi-video_bjr5zf.mp4"
+    type="video/mp4"
+  />
+</video>
 
       <div className="absolute inset-0 bg-black/55" />
 
