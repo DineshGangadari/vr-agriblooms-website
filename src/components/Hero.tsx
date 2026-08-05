@@ -11,7 +11,7 @@ export default function Hero() {
         loop
         playsInline
       >
-        <source src="/videos/heroi-video.mp4" type="video/mp4" />
+        <source src="/videos/hero-garden-new.mp4" type="video/mp4" />
       </video>
 
       <div className="absolute inset-0 bg-black/55" />
