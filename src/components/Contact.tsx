@@ -22,6 +22,17 @@ export default function Contact() {
               Jagathgirigutta, Kukatpally,
               Hyderabad, Telangana - 500072
             </p>
+            <div className="mt-12 overflow-hidden rounded-2xl shadow-lg">
+  <iframe
+  src="https://www.google.com/maps?q=4-32-456/A,Phase%201,Allwyn%20Colony,Jagathgirigutta,Kukatpally,Hyderabad,Telangana%20500072&output=embed"
+  width="100%"
+  height="350"
+  style={{ border: 0 }}
+  loading="lazy"
+  allowFullScreen
+  title="VR Agri Blooms Location"
+/>
+</div>
 
             <p className="mt-4 text-gray-700">
               Phone: +91 7036106812
