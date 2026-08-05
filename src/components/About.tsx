@@ -1,6 +1,11 @@
 export default function About() {
   return (
-    <section id="about" className="bg-white px-6 py-20 md:px-10">
+    <section
+  id="about"
+  className="bg-white px-6 py-20 md:px-10"
+  data-aos="fade-up"
+  data-aos-duration="1000"
+>
       <div className="mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-green-600">

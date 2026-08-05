@@ -2,7 +2,10 @@ export default function Services() {
   return (
     <section className="bg-green-50 py-20 px-8">
 
-      <div className="max-w-6xl mx-auto">
+      <div
+  data-aos="zoom-in"
+  data-aos-delay="100"
+>
 
         <h2 className="text-4xl font-bold text-center text-green-700">
           Our Services

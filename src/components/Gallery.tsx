@@ -16,7 +16,8 @@ const projectVideos = [
 export default function Gallery() {
   return (
     <section id="projects" className="bg-white px-6 py-20">
-      <div className="mx-auto max-w-7xl">
+      <div data-aos="fade-up"
+>
         <h2 className="text-center text-4xl font-bold text-green-800">
           Our Projects
         </h2>
