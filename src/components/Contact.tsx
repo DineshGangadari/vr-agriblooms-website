@@ -17,12 +17,22 @@ export default function Contact() {
     const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
+    console.log({
+  serviceId,
+  templateId,
+  publicKey,
+});
+
     if (!serviceId || !templateId || !publicKey) {
-      setStatusMessage(
-        "Email configuration is missing. Please check the .env.local file."
-      );
-      return;
-    }
+  console.log("serviceId:", serviceId);
+  console.log("templateId:", templateId);
+  console.log("publicKey:", publicKey);
+
+  setStatusMessage(
+    "Email configuration is missing. Please check the .env.local file."
+  );
+  return;
+}
 
     try {
       setIsSending(true);
