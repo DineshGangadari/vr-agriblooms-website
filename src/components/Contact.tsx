@@ -54,13 +54,17 @@ export default function Contact() {
 
       setStatusMessage("✅ Thank you! Your enquiry has been sent successfully.");
       form.reset();
-    } catch (error) {
-      console.error(error);
+   } catch (error: any) {
+  console.error("EmailJS Error:", error);
 
-      setStatusMessage(
-        "❌ Failed to send enquiry. Please try again or contact us on WhatsApp."
-      );
-    } finally {
+  alert(
+    `Status: ${error?.status}\nText: ${error?.text}\nMessage: ${error?.message}`
+  );
+
+  setStatusMessage(
+    "❌ Failed to send enquiry. Please try again or contact us on WhatsApp."
+  );
+} finally {
       setIsSending(false);
     }
   }
